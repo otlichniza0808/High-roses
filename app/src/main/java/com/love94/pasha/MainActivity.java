@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
 
-        mWebView.loadUrl("https://xn----ktbfbfedxjmgh9k.xn--p1ai/");
+        mWebView.loadUrl("https://рижский-рынок.рф/");
         mWebView.setWebViewClient(new WebViewClient());
 
-        Uri address = Uri.parse("https://xn----ktbfbfedxjmgh9k.xn--p1ai/");
-        Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, address);
-        startActivity(openlinkIntent);
+        //Uri address = Uri.parse("https://xn----ktbfbfedxjmgh9k.xn--p1ai/");
+        //Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, address);
+        //startActivity(openlinkIntent);
     }
 
     @Override
